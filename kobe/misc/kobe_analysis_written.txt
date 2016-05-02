@@ -1,0 +1,19 @@
+Stepehgen Curry smashed the one-year record for 3-pointers in 2015-16 (400)
+Most of the all-time leaders of 3-pointers are current players or recently retired (exception of Reggie Miller)
+The 1994 ruke to allow 3-pointers 3 foul shots have made it even more attractive
+
+3-pointers are a lower percentage shot for all players; however this is balanced by the fact they give a higher number of points for achieving them. Therefore we must normalize this by  multiplying the point total (2 or 3) by the percentgae made. 
+
+For example, 40% of making a 3-pointer has a value of 1.2 points. A 50% of making a 2-pointer has a value of 1 point. If a player has 50% of making 2-pointer and 50% chance of 3-pointer he would be more productive focusing on 3-pointers. 
+
+Kob'e shot data is public was taken from a Kaggle competition 
+No stistical analysis was performed on the data. The goal of this project was ot provide visual data only to provide conclusions
+
+The goal of the data is to asner some questions about Kobe and general shooting strategy. 
+
+- If Kobe were to come out of retirement and play in the 2016-17 season, how should he focus on his game?
+- Is Kobe more productive with 2 or 3-pointers overall? When distance from basket is taken into account how does this analysis change?
+- Should his 3-point attempts depend on various game factor, such as opponent, shot type, or period of play?
+
+Conclusions
+- Kobe 

@@ -61,7 +61,9 @@ shinyUI(fluidPage(
         h4('Data:'),
         div('The following data comes from the Kaggle Kobe Bryant data set:'),
         a('https://www.kaggle.com/c/kobe-bryant-shot-selection'),
-        div('Some calculated fields have been added (final shot, home vs. away). The plots would help a basketball strategist answer some of the following questions:'),
+        div('Some calculated fields have been added (final shot, home vs. away).'),
+        h4('Study:'),
+        div('The plots would help a basketball strategist answer some of the following questions:'),
         tags$ul(
           tags$li('Is Kobe more productive when shooting 2-point or 3-point shots? Does the answer change when a filter is applied (e.g. 4th quarter shots, when playing at home etc.)'),
           tags$li('How does Kobe\'s performance change over time (split by seasons variable)? If Kobe were to come out of retirement and play in a future season, which shot type(s) should be focus on most?'),
@@ -71,6 +73,9 @@ shinyUI(fluidPage(
         h4('Conclusions:'),
         div('For conclusions and summary, see presentation here:'),
         a('http://rpubs.com/nickkz/kobe'),
+        h4('Reproducible Code:'),
+        div('For reproducible code, see github repo here:'),
+        a('https://github.com/nickkz/jhu_dp_nk'),
         h4('Disclaimers:'),
         div('This project is completely unrelated to the Kaggle contest; it uses the data set for a completely different purpose. Normally a conclusive analysis would be based on both visual and statistical analyses; for the purpose of the assignment only a visual analysis was used to produce conclusions. A more complete analysis would include additional data such as foul shots and other offensive/defensive stats.')
       )

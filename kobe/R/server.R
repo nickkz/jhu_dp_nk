@@ -7,8 +7,8 @@ library(ggplot2)
 library(data.table)
 
 #globals
-setwd("Q:/dev/coursera/dp/kobe")
-input_file <- "data/data.csv"
+#setwd("Q:/dev/coursera/dp/jhu_dp_nk/kobe")
+input_file <- "./data/data.csv"
 
 #load data
 kobe_data <- read.csv(input_file,header = TRUE, skipNul = TRUE, na.strings = c('NULL', 'NA'))

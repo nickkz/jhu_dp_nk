@@ -70,6 +70,7 @@ shinyUI(fluidPage(
         ),
         h4('Conclusions:'),
         div('For conclusions and summary, see presentation here:'),
+        a('http://rpubs.com/nickkz/kobe'),
         h4('Disclaimers:'),
         div('This project is completely unrelated to the Kaggle contest; it uses the data set for a completely different purpose. Normally a conclusive analysis would be based on both visual and statistical analyses; for the purpose of the assignment only a visual analysis was used to produce conclusions. A more complete analysis would include additional data such as foul shots and other offensive/defensive stats.')
       )
